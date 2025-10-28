@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABGOUDJA Mahamat Oumar - Site Personnel</title>
+  <style>
+    /* RESET */
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {font-family: Arial, sans-serif; line-height:1.6; color:#333;}
+    a {text-decoration:none; color:#0077cc;}
+    ul {list-style:none;}
+
+    /* CONTAINER */
+    .container {width:90%; max-width:1000px; margin:auto; padding:20px;}
+
+    /* HEADER */
+    header {text-align:center; padding:50px 0; background:#f0f8ff;}
+    header h1 {font-size:2.5em; margin-bottom:10px;}
+    header p {font-size:1.2em; color:#555;}
+
+    /* SECTIONS */
+    section {padding:50px 0; border-bottom:1px solid #ddd;}
+    section h2 {text-align:center; font-size:2em; margin-bottom:20px; color:#0077cc;}
+    section p, section li {max-width:800px; margin:10px auto; text-align:center;}
+
+    /* PROJETS */
+    .projects ul {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
+    .projects li {background:#f9f9f9; padding:20px; border-radius:8px; width:250px; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+
+    /* CONTACT */
+    .contact p {margin:10px 0;}
+    
+    /* FOOTER */
+    footer {text-align:center; padding:20px; background:#f0f8ff; font-size:0.9em; color:#555;}
+
+    /* RESPONSIVE */
+    @media(max-width:600px){
+      .projects ul {flex-direction:column; align-items:center;}
+      .projects li {width:80%;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>ABGOUDJA Mahamat Oumar</h1>
+    <p>Étudiant en L2 TIC | Passionné par la Data Science et Python</p>
+  </header>
+
+  <div class="container">
+
+    <!-- A PROPOS -->
+    <section id="about">
+      <h2>À propos de moi</h2>
+      <p>Je suis étudiant en L2 TIC à l’Université Al-Marifat, intéressé par la Data Science, l’analyse de données et le développement Python. Je prépare un Master en Data Science en France et ce site présente mon parcours et mes projets.</p>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projects" class="projects">
+      <h2>Mes Projets</h2>
+      <ul>
+        <li>
+          <h3>Analyse de données COVID-19</h3>
+          <p>Visualisation et analyse des tendances COVID avec Python et Pandas.</p>
+        </li>
+        <li>
+          <h3>Application Gestion Étudiants</h3>
+          <p>Application Python pour gérer les étudiants : ajout, modification, suppression.</p>
+        </li>
+        <li>
+          <h3>Prédiction de notes</h3>
+          <p>Modèle simple de prédiction des notes des étudiants en utilisant scikit-learn.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- FORMATIONS & CERTIFICATS -->
+    <section id="certificates">
+      <h2>Formations & Certificats</h2>
+      <ul>
+        <li>Python pour la Data Science - OpenClassrooms</li>
+        <li>Introduction à l’IA - Coursera</li>
+        <li>Statistiques et Analyse de données - edX</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email : <a href="mailto:abgoudja.mahamat@gmail.com">abgoudja.mahamat@gmail.com</a></p>
+      <p>GitHub : <a href="https://github.com/tonpseudo">github.com/tonpseudo</a></p>
+      <p>LinkedIn : <a href="https://linkedin.com/in/tonpseudo">linkedin.com/in/tonpseudo</a></p>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 ABGOUDJA Mahamat Oumar - Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
